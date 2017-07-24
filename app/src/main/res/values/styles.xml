@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="list_item_name">
+        <item name="android:textSize">@dimen/list_name_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+    </style>
+
+    <style name="list_item_numbers">
+
+        <item name="android:textSize">@dimen/list_number_size</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="empty_view">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/empty_view_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="detail_label">
+        <item name="android:textSize">@dimen/detail_label_fontsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+    </style>
+
+    <style name="detail_data">
+        <item name="android:textSize">@dimen/detail_data_fontsize</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+    </style>
+
+</resources>
